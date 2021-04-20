@@ -1,0 +1,32 @@
+@import "structure.scss";
+@import "variables.scss";
+
+
+//home styling
+@import "home/hero.scss";
+@import "home/promo-tours.scss";
+@import "home/booking-form.scss";
+@import "home/nav.scss";
+
+//about styling
+@import "about/black-nav.scss";
+@import "about/about.scss";
+
+//tours styling
+@import "tours/tours-hero.scss";
+@import "tours/tours.scss";
+@import "tours/tour-pages.scss";
+@import "tours/tours-images.scss";
+
+//special offers styling 
+@import "special-offers.scss";
+
+//blog styling 
+@import "blog.scss";
+
+//contact-us styling
+@import "contact.scss";
+
+//footer
+@import "footer/footer.scss";
+

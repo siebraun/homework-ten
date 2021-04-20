@@ -1,0 +1,10 @@
+.contact-us {
+  max-width: 980px;
+  margin: 90px auto 100px auto;
+}
+.contact-us h3 {
+  font-family: "Proxima";
+  font-size: 40px;
+  width: 400px;
+  border-bottom: black solid 2px;
+}

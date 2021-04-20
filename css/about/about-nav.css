@@ -1,0 +1,45 @@
+#black-nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+}
+#black-nav p, #black-nav a {
+  font-family: "Gill Sans", sans-serif;
+  color: black;
+}
+#black-nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../img/logo-white.png);
+}
+#black-nav .logo p {
+  margin: auto;
+  font-size: 20px;
+}
+#black-nav .links {
+  width: 500px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+#black-nav .links a {
+  text-decoration: none;
+  size: 15px;
+  margin: auto;
+}
+#black-nav .links hr {
+  height: 21px;
+  width: 1px;
+  border-color: #79ADDC;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .logo {
+    width: 0px;
+  }
+}

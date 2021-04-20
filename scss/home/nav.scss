@@ -1,0 +1,67 @@
+.white-nav{
+    max-width: 980px;
+    height: 60px;
+    background-color: seashell;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+
+
+    p, a{
+        font-family: 'Gill Sans', sans-serif;
+        color: $white;
+    }
+
+    .logo{
+        width: 92px; 
+        height: 42px;
+        background-image: url(../img/logo-white.png);
+        // border: $white solid 2px;
+        // align-self: center;
+        // display: flex;
+        
+        p{
+            margin: auto;
+            font-size: 20px;
+        }
+        
+    }
+
+    .links{
+        width: 500px;
+        height: 42px;
+        // background-color: pink;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            text-decoration: none;
+            size: 15px;
+            margin: auto;
+        }
+
+        hr{
+            height: 21px;
+            width: 1px;
+            border-color: $site-blue;
+            margin: auto;
+        }
+    }
+}
+
+
+
+
+
+// media queries
+
+@media only screen and (max-width: 600px) {
+    nav {
+        .logo{
+            width: 0px;
+        }
+    }
+}

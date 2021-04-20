@@ -1,0 +1,121 @@
+.contact-us{
+    max-width: 980px;
+    margin: 90px auto 100px auto;
+
+    h3{
+        font-family: 'Proxima';
+        font-size: 40px;
+        width: 211px;
+        border-bottom: black solid 2px;
+    }
+
+
+    .contact-wrapper{
+        display: flex;
+        max-width: 980px;
+
+        .contact-info{
+            max-width: 400px;
+            min-height: 637px;
+    
+            .map{
+                padding-top: 50px;
+            }
+    
+            .info{
+                margin-top: 34px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+                line-height: 40%;
+            }
+        }
+    
+        .contact-form{
+            margin-top: 50px;
+            padding-left: 50px;
+            max-width: 529px;
+            height: 100%;
+
+            .form-row{
+                margin-bottom: 20px;
+                
+                input[type=text] {
+                    width: 529px;
+
+                    height: 60px;
+                    background-color: #F5F5F5;
+                    border: none;
+                    padding-left: 20px;
+
+                    *{
+                        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 16px;
+                        color: #8B8B8B;
+                    }
+
+                }
+
+            }
+
+            .message-row{
+                width: 529px;
+                height: 60px;
+                margin-top: 20px;
+                
+                input[type=text] {
+                    width: 529px;
+                    height: 200px;
+                    background-color: #F5F5F5;
+                    border: none;
+                    padding-left: 20px;
+
+                    *{
+                        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 16px;
+                        color: #8B8B8B;
+                    }
+
+                }
+
+            }
+
+
+            .button{
+                margin-top: 160px;
+                height: 60px;
+                width: 167px;
+                background-color: $site-blue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+                color: $white;
+                padding-top: 20px;
+                padding-left: 25px;
+            }
+    
+        }
+    }
+}
+
+
+@media only all and (max-width: 1020px) {
+    .contact-us{
+        padding-left: 20px;
+        margin-bottom: -600px;
+    }
+    .contact-wrapper{
+        padding-right: 20px;
+        flex-direction: column;
+        width: 400px;
+
+        .contact-form{
+            margin-left: -50px;
+        }
+
+    }
+}
+
+@media only all and (max-width: 1020px){
+    .contact-us{
+        margin-bottom: 200px;
+    }
+}

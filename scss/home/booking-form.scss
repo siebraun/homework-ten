@@ -1,0 +1,172 @@
+.booking-form{
+    height: 808px;
+    max-width: 818px;
+    // background-color: sienna;
+    margin: 40px auto 0px auto;
+
+    h1{
+        font-family: 'Proxima';
+        font-size: 60px;
+        color: black;
+        margin-bottom: 35px;
+    }
+
+    p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .booking-row{
+        max-width: 818px;
+        height: 78px;
+        // background-color: purple;
+        display: flex;
+        justify-content: space-between;
+
+
+        img{
+            margin-right: 20px;
+        }
+
+        input[type=text], div{
+            max-width: 818px;
+            height: 58px;
+            border: $site-blue solid 2px;
+            margin-bottom: 20px;
+            padding: 20px;
+            
+            *{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+            }
+
+           
+        }
+
+        .name, .country{
+            min-width: 344px;
+        }
+
+        .email, .hotel{
+            min-width: 453px;
+        }
+
+        .check-in-out{
+            margin-top: -20px;
+            margin-left: -35px;
+            width: 200px; 
+            border: white solid 0px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            // background-color: burlywood;
+        }
+
+        .check-in-out-date{
+            max-width: 693px;
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                margin-top: -4px;
+                margin-left: -4px;
+                margin-right: 600px;
+            }
+
+            img{
+                width: 19px;
+                margin-left: -40px;
+            }
+        }
+
+        .message{
+            width: 100%;
+            resize: both;
+            overflow: auto;
+        }
+
+        label{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            margin-top: 16px;
+        }
+
+
+        .guests{
+            display: flex;
+
+
+            select{
+                max-width: 103px;
+                display: flex;
+                justify-content: space-between;
+                border: white solid 0px;
+
+                option{
+                    min-width: 103px;
+                    margin-bottom: 0px;
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+    .submit-button{
+        max-width: 813px;
+        height: 58px;
+        border: $site-blue solid 2px;
+        border-radius: 40px;
+        background-color: $site-blue;
+        display: flex;
+        justify-content: space-around;
+
+        p{
+            align-self: center;
+            color: $white;
+        }
+    }
+}
+
+@media only screen and (max-width: 845px){
+    .booking-form{
+        width: 460px;
+
+        .booking-row{
+            display: block;
+            margin-bottom: 80px;
+            
+            div{
+                width: 460px;
+            }
+
+            .guests{
+                .dropdown{
+                    width: 300px;
+                }
+            }
+            
+        }
+
+
+        .message{
+            width: 460px;
+            margin-top: 150px;
+        }
+
+        .submit-button{
+            margin-top: 160px;
+            width: 460px;
+        }
+    }
+}

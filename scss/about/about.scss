@@ -1,0 +1,118 @@
+.about{
+    max-width: 980px;
+    margin: 90px auto 0px auto;
+
+
+    .about-top-section{
+
+        h1{
+            width: 171px;
+            border-bottom: black solid 2px;
+            font-size: 60px;
+            font-family: 'Proxima';
+        }
+
+        p{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            padding-bottom: 95px;
+        }
+    }
+
+
+
+
+
+    .about-bottom-section{
+        padding-bottom: 180px;
+
+        h3{
+            font-family: 'Proxima';
+            font-size: 40px;
+            width: 255px;
+            border-bottom: black solid 2px;
+        }
+
+
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+
+
+
+
+        .client{
+            max-width: 676px;
+            min-height: 150px;
+            display: flex;
+            margin-bottom: 38px;
+
+            .client1-img{
+                min-width: 260px;
+                height: 150px;
+
+                background-image: url(../../img/about-client-01.jpg);
+                background-size: cover;
+
+            }
+
+            .client2-img{
+                min-width: 260px;
+                height: 150px;
+
+                background-image: url(../../img/about-client-02.jpg);
+                background-size: cover;
+
+            }
+    
+    
+            .client-quote{
+                position: relative;
+                min-height: 50px;
+                // background-color: seashell;
+                width: 100%;
+                padding-left: 20px;
+
+                p{
+                    &:last-of-type{
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .client-name{
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    padding-right: -30px;
+
+                    p{
+                        font-family: 'Proxima';
+                        font-size: 20px;
+                        color: $site-blue;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .about{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: -450px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .client-name{
+        position: relative;
+        margin-bottom: -30px;
+    }
+
+}
+
